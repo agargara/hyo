@@ -25,6 +25,8 @@ function Theme (game)
 
         self.background = self.hex_to_rgb(theme.background)
         self.flower = self.hex_to_rgb(theme.flower)
+        self.saturation = 0.5
+        self.brightness = 0.7
         self.theme_index = index
     end
 
